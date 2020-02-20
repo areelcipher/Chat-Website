@@ -1,0 +1,86 @@
+#chat-list {
+    height: auto;
+    margin: 0 10px;
+}
+#btn-one {
+    margin-top: 10px;
+}
+#btn-two {
+    margin-top: -10px;
+}
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+#green-text {
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+    .chat-list {
+        width: 50vw;
+    }
+    #btn {
+        width: 50vw;
+    }
+}
+@media screen and (min-width: 630px) {
+    .chat-list {
+        width: 40vw;
+    }
+    #btn {
+        width: 40vw;
+    }
+}
+@media screen and (min-width: 770px) {
+    .chat-list {
+        width: 35vw;
+    }
+    #btn {
+        width: 35vw;
+    }
+}
+@media screen and (min-width: 900px) {
+    .chat-list {
+        width: 30vw;
+    }
+    #btn {
+        width: 30vw;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .chat-list {
+        width: 25vw;
+    }
+    #btn {
+        width: 25vw;
+    }
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+#icon {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon h5 {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+#chat-link {
+    color: inherit;
+}

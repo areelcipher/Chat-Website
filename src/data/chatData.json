@@ -1,0 +1,24 @@
+{
+  "chats": [
+    {
+      "username": "Michael",
+      "message": "Heyo Bro! How are you doing?",
+      "id": "1"
+    },
+    {
+      "username": "Sunday",
+      "message": "Chat me up, later",
+      "id": "2"
+    },
+    {
+      "username": "Ayodele",
+      "message": ":)",
+      "id": "3"
+    },
+    {
+      "username": "Bamidele",
+      "message": "Where art thou",
+      "id": "4"
+    }
+  ]
+}
